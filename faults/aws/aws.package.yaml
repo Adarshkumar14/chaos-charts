@@ -22,3 +22,6 @@ faults:
   - name: ebs-loss-by-tag
     CSV: ebs-loss-by-tag.chartserviceversion.yaml
     desc: "ebs-loss-by-tag"
+  - name: aws-rds-reboot
+    CSV: aws-rds-reboot.chartserviceversion.yaml
+    desc: "aws-rds-reboot"
