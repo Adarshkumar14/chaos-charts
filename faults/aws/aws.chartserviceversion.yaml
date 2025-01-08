@@ -34,6 +34,9 @@ spec:
     - name: ebs-loss-by-tag
       description: It detach the EBS volume from AWS EC2 instance identified by Tag for a certain chaos duration.
       displayName: "EBS Loss By Tag"
+    - name: aws-rds-reboot
+      description: It reboots the aws rds instances
+      displayName: "AWS RDS Reboot"
   keywords:
     - AWS
   maintainers:
@@ -41,8 +44,7 @@ spec:
       email: karthik.s@harness.io
     - name: Udit Gaurav
       email: udit.gaurav@harness.io
-    - name: oumkale
-      email: imkaleoum@gmail.com
+
   minKubeVersion: 1.12.0
   links:
     - name: Kubernetes Website
