@@ -26,4 +26,14 @@ spec:
             # set chaos interval (in sec) as desired
             - name: CHAOS_INTERVAL
               value: '10'
+            - name: INSTANCE_AFFECTED_PERC
+              value: "100"
+            - name: CLUSTER_NAME
+              value: ""
+            - name: REGION
+              value: ""
+            - name: RDS_INSTANCE_IDENTIFIER
+              value: ""
+            - name: AWS_SHARED_CREDENTIALS_FILE
+              value: /tmp/cloud_config.yml
               
